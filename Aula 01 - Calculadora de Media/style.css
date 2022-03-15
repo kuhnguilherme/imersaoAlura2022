@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+    font-family: "helvetica";
+    background-color: #000000;
+    color: white;
+}
+
+img {
+    border-radius: 50%;
+}
