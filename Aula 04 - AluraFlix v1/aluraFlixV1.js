@@ -1,12 +1,14 @@
 var filmes = [
-    "Toin do Bó I",
-    "Toin do Bó II",
-    "Toin do Bó III"
-  ];
-  
-  var i;
-  
-  for (i = 0; i < 3; i++) {
-    document.write("<strong>" + filmes[i] + "</strong>" + "</br>");
-  }
-  
+  "Shrek I",
+  "Shrek II",
+  "Shrek III"
+];
+
+filmes.push("Shrek IV");
+filmes.push("Shrek V", "Shrek VI");
+
+var i;
+
+for (i = 0; i < filmes.length; i++) {
+  document.write("<p>" + filmes[i] + "</p>");
+}
